@@ -22,7 +22,6 @@ import {
   CATEGORY_PRODUCT_FAIL,
 } from "../constants/productConstants";
 import axios from "axios";
-const API = axios.create({ baseURL: `http://localhost:5000` });
 
 export const listProducts = () => async (dispatch) => {
   try {

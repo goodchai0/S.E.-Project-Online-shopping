@@ -18,7 +18,7 @@ const userSchema = mongoose.Schema(
     isAdmin: {
       type: Boolean,
       required: true,
-      default: true,
+      default: false,
     },
   },
   {
@@ -27,6 +27,7 @@ const userSchema = mongoose.Schema(
 );
 
 userSchema.methods.matchPassword = async function (enteredPassword) {
+ 
   return await bcrypt.compare(enteredPassword, this.password);
 };
 

@@ -5,7 +5,7 @@ import store from "./store";
 import "./index.css";
 import App from "./App";
 import axios from "axios";
-axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "https://hitk-shopping.onrender.com";
 
 ReactDOM.render(
   <Provider store={store}>
