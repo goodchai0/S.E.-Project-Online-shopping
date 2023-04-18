@@ -1,6 +1,6 @@
 {
   "name": "Hitkshopping",
-  "proxy": "https://hitk-shopping.onrender.com/",
+  "proxy": "https://hitk-shopping1.onrender.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
