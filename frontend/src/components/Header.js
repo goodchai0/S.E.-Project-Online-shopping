@@ -50,16 +50,17 @@ function Header() {
           </div>
           <div className="max-w-xl mb-6">
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              Ecommerce Built For HITK.
+              Ecommerce Built For Your Company.
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
               We make online selling superbly easy. More than just a reliable
               e-commerce platform. Ensuring the best welfare of the buyers.
               <br></br>
               <br></br>
-              <h1>Our Team: </h1>
-              <p>Amit Kumar Kewot, Debayan Kumar Ghost,</p>
-              <p>Anirban Dutta, Tamoghna Shadhukhan, Adri Karmakar</p>
+              <h1>My Name: </h1>
+              <p>
+                <b>Amit Kumar Kewot</b>
+              </p>
             </p>
           </div>
           {/* <div>

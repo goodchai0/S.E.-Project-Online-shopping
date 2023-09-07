@@ -41,7 +41,7 @@ function Login() {
                 href="/"
                 className="lora-font text-blue-400 text-semibold text-md"
               >
-                HITK Shopping
+                Amit's Shopping
               </a>
               <h2 className="font-merriweather mt-6 text-3xl font-bold text-neutral-600">
                 {" "}
@@ -168,8 +168,8 @@ function Login() {
           {/* <img className="absolute inset-0 object-cover w-full h-full" src="https://source.unsplash.com/P9LTNN1GJqk" alt="cover-image" /> */}
 
           <img
-            className="flex p-60 justify-center object-cover overflow-hidden lg:block"
-            src="https://www.heritageit.edu/imagesHITK/HIT_20.png"
+            className="flex ml-20 mt-20 justify-center object-cover overflow-hidden lg:inline"
+            src="https://media.istockphoto.com/id/1150644423/vector/online-shop-logo-design-template.jpg?s=612x612&w=0&k=20&c=Cri_aW_GNW9sRmN7m4g31ClyQdkE56EgjPTzCrsmqng="
             alt="cover-image"
           />
         </div>

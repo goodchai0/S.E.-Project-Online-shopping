@@ -220,8 +220,8 @@ export default function Navbar() {
       </Transition.Root>
 
       <header className="relative bg-white">
-        <p className="bg-indigo-500 h-10 flex items-center justify-center text-sm font-medium text-white px-4 sm:px-6 lg:px-8">
-          COMPUTER SCIENCE & BUSINESS SYSTEM DEPARTMENT
+        <p className="bg-indigo-500 h-10 flex items-center justify-center text-lg font-medium text-white px-4 sm:px-6 lg:px-8">
+          Hire Amit Kr Kewot Please :)
         </p>
 
         <nav aria-label="Top" className=" mx-auto px-4 sm:px-6 lg:px-8">
@@ -241,7 +241,7 @@ export default function Navbar() {
                 <a href="/">
                   <span className="sr-only">Workflow</span>
                   <h1 className="lora-font font-bold text-2xl">
-                    HITK Shopping
+                    Amit's Shopping
                   </h1>
                 </a>
               </div>
@@ -250,7 +250,7 @@ export default function Navbar() {
               <Popover.Group className="hidden lg:ml-8 lg:block lg:self-stretch">
                 <div className="h-full flex space-x-8">
                   <Link to="/">
-                    <h1 className="font-bold text-2xl mt-4">HITK Shopping</h1>
+                    <h1 className="font-bold text-2xl mt-4">Amit's Shopping</h1>
                   </Link>
                   {navigation.categories.map((category) => (
                     <Popover key={category.name} className="flex">
